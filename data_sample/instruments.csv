@@ -1,0 +1,7 @@
+broker_symbol,yahoo_symbol,currency,sleeve
+VWCE,VWCE.DE,EUR,etf
+SXR8,SXR8.DE,EUR,etf
+EXSA,EXSA.DE,EUR,etf
+AAPL,AAPL,USD,stock
+MSFT,MSFT,USD,stock
+NVDA,NVDA,USD,stock

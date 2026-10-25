@@ -1,0 +1,71 @@
+Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers Ireland Limited
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 1, 2024 - October 22, 2026"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Sample Investor
+Account Information,Data,Account,SAMPLE-ACCOUNT
+Account Information,Data,Base Currency,EUR
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,VWCE,0,283,--,0,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,SXR8,0,24,--,0,0,0,0,0,0,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,
+Cash Report,Data,Starting Cash,Base Currency Summary,0,0,0,
+Cash Report,Data,Starting Cash,EUR,0,0,0,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,EUR,VWCE,"2024-02-15, 05:30:00",30,113.16,113.16,-3394.8,-1.6974,3396.4974,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2024-02-15, 05:30:00",3,488.82,488.82,-1466.46,-1.25,1467.71,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2024-05-03, 05:30:00",30,116.62,116.62,-3498.6,-1.7493,3500.3493,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2024-05-03, 05:30:00",3,499.97,499.97,-1499.91,-1.25,1501.16,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2024-08-14, 05:30:00",17,119.54,119.54,-2032.18,-1.25,2033.43,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2024-08-14, 05:30:00",1,522.26,522.26,-522.26,-1.25,523.51,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2024-11-11, 05:30:00",15,133.26,133.26,-1998.9,-1.25,2000.15,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2024-11-11, 05:30:00",1,597.6,597.6,-597.6,-1.25,598.85,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2025-02-12, 05:30:00",25,138.3,138.3,-3457.5,-1.72875,3459.22875,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2025-02-12, 05:30:00",2,617.42,617.42,-1234.84,-1.25,1236.09,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2025-05-07, 05:30:00",17,123.14,123.14,-2093.38,-1.25,2094.63,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2025-05-07, 05:30:00",1,526.14,526.14,-526.14,-1.25,527.39,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2025-08-12, 05:30:00",41,135.02,135.02,-5535.82,-2.76791,5538.587909999999,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2025-08-12, 05:30:00",4,587.0,587.0,-2348.0,-1.25,2349.25,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2025-11-14, 05:30:00",24,143.68,143.68,-3448.32,-1.72416,3450.0441600000004,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2025-11-14, 05:30:00",2,622.42,622.42,-1244.84,-1.25,1246.09,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2026-02-04, 05:30:00",37,147.76,147.76,-5467.12,-2.73356,5469.85356,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2026-02-04, 05:30:00",3,626.64,626.64,-1879.92,-1.25,1881.17,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2026-05-12, 05:30:00",35,156.96,156.96,-5493.6,-2.7468,5496.3468,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2026-05-12, 05:30:00",3,673.5,673.5,-2020.5,-1.25,2021.75,0,0,O
+Trades,Data,Order,Stocks,EUR,VWCE,"2026-08-04, 05:30:00",12,167.54,167.54,-2010.48,-1.25,2011.73,0,0,O
+Trades,Data,Order,Stocks,EUR,SXR8,"2026-08-04, 05:30:00",1,719.96,719.96,-719.96,-1.25,721.21,0,0,O
+Deposits & Withdrawals,Header,Currency,Settle Date,Description,Amount
+Deposits & Withdrawals,Data,EUR,2024-02-14,Electronic Fund Transfer,5000
+Deposits & Withdrawals,Data,EUR,2024-05-02,Electronic Fund Transfer,5000
+Deposits & Withdrawals,Data,EUR,2024-08-13,Electronic Fund Transfer,3000
+Deposits & Withdrawals,Data,EUR,2024-11-08,Electronic Fund Transfer,3000
+Deposits & Withdrawals,Data,EUR,2025-02-11,Electronic Fund Transfer,5000
+Deposits & Withdrawals,Data,EUR,2025-05-06,Electronic Fund Transfer,3000
+Deposits & Withdrawals,Data,EUR,2025-08-11,Electronic Fund Transfer,8000
+Deposits & Withdrawals,Data,EUR,2025-11-13,Electronic Fund Transfer,5000
+Deposits & Withdrawals,Data,EUR,2026-02-03,Electronic Fund Transfer,8000
+Deposits & Withdrawals,Data,EUR,2026-05-11,Electronic Fund Transfer,8000
+Deposits & Withdrawals,Data,EUR,2026-08-03,Electronic Fund Transfer,3000
+Deposits & Withdrawals,Data,Total,,,56000
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,EUR,2024-06-04,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),15.0
+Dividends,Data,EUR,2024-09-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),19.25
+Dividends,Data,EUR,2024-12-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),23.0
+Dividends,Data,EUR,2025-03-04,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),29.25
+Dividends,Data,EUR,2025-06-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),33.5
+Dividends,Data,EUR,2025-09-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),43.75
+Dividends,Data,EUR,2025-12-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),49.75
+Dividends,Data,EUR,2026-03-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),59.0
+Dividends,Data,EUR,2026-06-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),67.75
+Dividends,Data,EUR,2026-09-03,VWCE(IE00BK5BQT80) Cash Dividend EUR 0.25 per Share (Ordinary Dividend),70.75
+Dividends,Data,Total,,,411.0
+Withholding Tax,Header,Currency,Date,Description,Amount,Code
+Withholding Tax,Data,EUR,2025-10-06,Withholding @ 20% on Credit Interest for Sep-2025,-0.84,
+Withholding Tax,Data,Total,,,-0.84,
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,EUR,2025-10-03,EUR Credit Interest for Sep-2025,4.20
+Interest,Data,Total,,,4.20
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,VWCE,VANGUARD FTSE ALL-WORLD UCITS,0,IE00BK5BQT80,VWCE,IBIS,1,ETF,
+Financial Instrument Information,Data,Stocks,SXR8,ISHARES CORE S&P 500,0,IE00B5BMR087,SXR8,IBIS,1,ETF,

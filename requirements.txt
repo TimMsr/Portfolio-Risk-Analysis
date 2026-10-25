@@ -1,0 +1,12 @@
+# Tested with Python 3.12
+pandas==3.1.0
+numpy==2.5.4
+matplotlib==3.11.2
+yfinance==1.7.0
+requests==2.34.2
+tabulate==0.10.0
+pytest==9.1.1
+# notebook
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0

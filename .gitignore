@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------
+# PRIVACY: real broker data must never be committed.
+# ---------------------------------------------------------------------------
+
+# All real exports and anything derived from them live here (local only).
+data_private/
+
+# Broker exports and office/PDF files anywhere in the repo...
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# ...except the synthetic sample data, which is safe to publish.
+!data_sample/
+!data_sample/*.csv
+
+# Price / FX downloads (rebuilt automatically, may reflect private holdings).
+.cache/
+
+# Outputs generated from real data are written to data_private/output/.
+# Outputs generated from sample data go to output_sample/ and may be committed
+# after check_public_outputs.py passes.
+
+# ---------------------------------------------------------------------------
+# Python / tooling
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
