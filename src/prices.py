@@ -34,20 +34,27 @@ def _cached(cache_dir, name, start, end, download, refresh=False):
     """Return a cached Series/DataFrame if it covers [start, end], else download it.
 
     `download(start, end)` must return a DataFrame indexed by date.
+
+    Next to each cache file we store the start date that was requested. A
+    series that only begins later (e.g. a fund listed after that date) then
+    still counts as complete and is not downloaded again on every run.
     """
     cache_dir = Path(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
     path = cache_dir / f"{name.replace('/', '_')}.csv"
+    requested = path.with_suffix(".start")
     if path.exists() and not refresh:
         df = pd.read_csv(path, index_col=0, parse_dates=True)
-        # Allow a few days of slack at the end for weekends/holidays.
-        covers = (len(df) > 0 and df.index.min() <= pd.Timestamp(start) + pd.Timedelta(days=7)
+        first = pd.Timestamp(requested.read_text()) if requested.exists() else df.index.min()
+        # Allow a few days of slack for weekends/holidays.
+        covers = (len(df) > 0 and first <= pd.Timestamp(start) + pd.Timedelta(days=7)
                   and df.index.max() >= pd.Timestamp(end) - pd.Timedelta(days=4))
         if covers:
             return df
     df = download(start, end)
     if len(df) > 0:
         df.to_csv(path)
+        requested.write_text(str(pd.Timestamp(start).date()))
     return df
 
 

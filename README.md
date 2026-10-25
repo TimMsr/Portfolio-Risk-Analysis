@@ -151,6 +151,15 @@ World UCITS ETF in EUR. The "Benchmark" row covers the same period.
   19 February 2025 and the trough on 9 April 2025. The portfolio took about a
   month longer than the benchmark to get back to its previous high.
 
+![Cumulative time-weighted return of the portfolio and the benchmark, both starting at 100](figures/cumulative_return.png)
+
+![Drawdown from the previous peak for the portfolio and the benchmark](figures/drawdown.png)
+
+![Rolling 6-month annualised volatility of the portfolio and the benchmark](figures/rolling_volatility.png)
+
+The portfolio's 6-month volatility stayed slightly above the benchmark's
+throughout, and both peaked in the six months after the April 2025 sell-off.
+
 **Gap to the benchmark, by source (percentage points):**
 
 | Index ETF sleeve | Individual stock sleeve | Cash | Costs | Compounding | **Total** |
@@ -176,6 +185,8 @@ exactly.
   - The "alpha" is therefore mostly noise.
   - The weekly beta of about 3 shows how much more volatile the sleeve was than
     the market.
+
+![Index ETF sleeve, individual stock sleeve and benchmark since February 2026, all starting at 100](figures/sleeves_vs_benchmark.png)
 
 **Costs were small**, about 0.1 pp over the whole period. Cash had no material
 effect.
@@ -251,6 +262,8 @@ tests/              pytest unit tests
 notebooks/          analysis notebook (sample data by default)
 data_sample/        synthetic data + generator script
 output_sample/      results from the synthetic data
+figures/            charts from the real data, used in this README
+                    (copied from data_private/output/ after review)
 check_public_outputs.py   privacy scan (run before every commit)
 validate_private.py       local-only cross-checks
 ```
