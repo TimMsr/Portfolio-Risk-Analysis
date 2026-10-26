@@ -9,7 +9,7 @@ The portfolio is held at two brokers (Interactive Brokers and Revolut). The
 period is January 2024 to October 2026, in EUR.
 
 > All returns are **unrealised, pre-tax and based on market values**.
-> Developed with AI coding assistance; I reviewed and understand the methods.
+
 
 ---
 
@@ -267,3 +267,7 @@ figures/            charts from the real data, used in this README
 check_public_outputs.py   privacy scan (run before every commit)
 validate_private.py       local-only cross-checks
 ```
+
+## Development and verification
+
+This project was developed with assistance from an AI coding tool. I designed the analysis scope, reviewed the financial methodology and implementation, and verified the key calculations through hand-checked unit tests and reconciliation against independently reported broker figures. I remain responsible for the analytical choices, results, and documentation.
